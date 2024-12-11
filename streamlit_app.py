@@ -8,6 +8,8 @@ import socket
 from fpdf import FPDF
 import hmac
 
+st.set_page_config(layout="wide")
+
 # Nome do arquivo JSON
 JSON_FILE      = "dados.json"
 JSON_PERGUNTAS = "perguntas.json"
