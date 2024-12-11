@@ -15,6 +15,19 @@ JSON_FILE      = "dados.json"
 JSON_PERGUNTAS = "perguntas.json"
 SECRET_KEY     = "token"  # Chave secreta para gerar o HMAC
 
+# CSS personalizado para permitir quebra de linha nas opções do select_slider
+st.markdown(
+    """
+    <style>
+    .stSlider .stSliderLabel .stSliderThumbValue {
+        white-space: normal;
+        overflow-wrap: break-word;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Função para gerar o token único para cada usuário
 def gerar_token(cpf_ou_cnpj):
     secret_key = "chave_secreta_segura"
