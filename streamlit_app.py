@@ -255,16 +255,35 @@ with tab1:
 with tab2:
     st.header("Escore MAP")
 
-    m1  = st.select_slider( perguntas['form_2']['map_1']['pergunta'], options=m1_graus)
-    m2  = st.select_slider( perguntas['form_2']['map_2']['pergunta'], options=m2_graus)
-    m3  = st.select_slider( perguntas['form_2']['map_3']['pergunta'], options=m3_graus)
-    m4  = st.select_slider( perguntas['form_2']['map_4']['pergunta'], options=m4_graus)
-    m5  = st.select_slider( perguntas['form_2']['map_5']['pergunta'], options=m5_graus)
-    m6  = st.select_slider( perguntas['form_2']['map_6']['pergunta'], options=m6_graus)
-    m7  = st.select_slider( perguntas['form_2']['map_7']['pergunta'], options=m7_graus)
-    m8  = st.select_slider( perguntas['form_2']['map_8']['pergunta'], options=m8_graus)
-    m9  = st.select_slider( perguntas['form_2']['map_9']['pergunta'], options=m9_graus)
-    m10 = st.select_slider( perguntas['form_2']['map_10']['pergunta'], options=m10_graus)
+    c1 = st.container(border=True)
+    m1 = c1.select_slider( perguntas['form_2']['map_1']['pergunta'], options=m1_graus)
+
+    c2 = st.container(border=True)
+    m2 = c2.select_slider( perguntas['form_2']['map_2']['pergunta'], options=m2_graus)
+
+    c3 = st.container(border=True)
+    m3 = c3.select_slider( perguntas['form_2']['map_3']['pergunta'], options=m3_graus)
+
+    c4 = st.container(border=True)
+    m4 = c4.select_slider( perguntas['form_2']['map_4']['pergunta'], options=m4_graus)
+
+    c5 = st.container(border=True)
+    m5 = c5.select_slider( perguntas['form_2']['map_5']['pergunta'], options=m5_graus)
+
+    c6 = st.container(border=True)
+    m6 = c6.select_slider( perguntas['form_2']['map_6']['pergunta'], options=m6_graus)
+
+    c7 = st.container(border=True)
+    m7 = c7.select_slider( perguntas['form_2']['map_7']['pergunta'], options=m7_graus)
+
+    c8 = st.container(border=True)
+    m8 = c8.select_slider( perguntas['form_2']['map_8']['pergunta'], options=m8_graus)
+
+    c9 = st.container(border=True)
+    m9 = c9.select_slider( perguntas['form_2']['map_9']['pergunta'], options=m9_graus)
+
+    c10 = st.container(border=True)
+    m10 = c10.select_slider( perguntas['form_2']['map_10']['pergunta'], options=m10_graus)
 
     escore_map = (m1_graus.index(m1)+m2_graus.index(m2)+m3_graus.index(m3)+m4_graus.index(m4)+m5_graus.index(m5)+m6_graus.index(m6)+m7_graus.index(m7)+m8_graus.index(m8)+m9_graus.index(m9)+m10_graus.index(m10)/10)
     st.write("Seu escore MAP é: ", round(escore_map, 2))
