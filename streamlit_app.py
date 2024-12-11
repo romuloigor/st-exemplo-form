@@ -203,7 +203,7 @@ m8_graus = [
 ]
 
 m9_graus = [
-    "estou sempre com sono no outro dia, atrapalhando muito minhas atividades",
+    "estou sempre com sono no outro dia",
     "quase sempre cansado",
     "regularmente acordo cansado",
     "costumo acordar um pouco cansado",
