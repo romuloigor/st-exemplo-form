@@ -7,8 +7,7 @@
         "Numero_Agencia": "0001",
         "Numero_Conta": "12345-6",
         "Token": "698203a9ec87bc01ac4e3426769e60e0f7ad072c6a3e469ff1eaac9b5343bc33",
-        "Atualizado_Em": "2024-12-06 19:38:54",
-        "IP": "127.0.0.1"
+        "Atualizado_Em": "2024-12-10 23:57:37"
     },
     {
         "CPF_ou_CNPJ": "98765432100",
@@ -18,7 +17,6 @@
         "Numero_Agencia": "1234",
         "Numero_Conta": "54321-0",
         "Token": "fbdd71ce9bfa8cf4b1da19c6f55663f64fc83ac0751a259a6e456a101408764a",
-        "Atualizado_Em": null,
-        "IP": null
+        "Atualizado_Em": "2024-12-11 01:04:45"
     }
 ]

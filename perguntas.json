@@ -1,0 +1,53 @@
+{
+    "form_1": [
+        "Conjugal",
+        "Profissional",
+        "Financeira",
+        "Familiar",
+        "Propósito de Vida",
+        "Rede de Amigos",
+        "Emocional"
+    ],
+    "form_2": {
+        "map_1" : {
+            "pergunta":"O quanto você se move por dia?",
+            "grau":"(Grau 0 = imóvel; Grau 10 = 100 minutos de caminhada ou cerca de 10.000 passos)"
+        },
+        "map_2" : {
+            "pergunta":"O quanto bebo de água por dia?",
+            "grau":"(Grau 0 = praticamente não tomo; Grau 10 = 6 copos/dia)"
+        },
+        "map_3" : {
+            "pergunta":"Qual a minha habilidade em parar de comer com um pouco de fome?",
+            "grau":"(Grau 0 = como até “estourar”; Grau 10 = Páro de comer quando estou 90% satisfeito)"
+        },
+        "map_4" : {
+            "pergunta":"Faço low carb nos extremos do dia (ex., café e janta)",
+            "grau":"(Grau 0 = como porções mais ou menos iguais nas 3 refeições; Grau 10 = como bem pouco carboidratos no café da manhã e na janta)"
+        },
+        "map_5" : {
+            "pergunta":"O quanto você como de salada volumosa, colorida, gorda, com vegetais de nomes diferentes, ervas, pimentas e especiarias?",
+            "grau":"(Grau 0 = não como salada; Grau 10 = 2 grandes porções/dia)"
+        },
+        "map_6" : {
+            "pergunta":"O quanto eu consumo fermentados feito em casa (vegetais lacrados em um pote de alga salgada por mais de 1 semana)?",
+            "grau":"(Grau 0 = não como este tipo de fermentado; Grau 10 = cerca de 6 garfadas/dia)"
+        },
+        "map_7" : {
+            "pergunta":"O quanto consumo gorduras BOAS (ovos, azeite extravirgem, abacate, avocado, várias formas de coco, nozes, amêndo-as, castanhas do pará e de cajú, macadâmia, pistache, chia, linhaça, gergelim etc)",
+            "grau":"(Grau 0 = não como este tipo de gorduras; Grau 10 = como com muita intensidade)"
+        },
+        "map_8" : {
+            "pergunta":"O quanto fico em jejum entre a JANTA e o SONO?",
+            "grau":"(Grau 10 = 3h) (Grau 0 = nunca faço isto; Grau 10 = faço isso em 100% dos dias)"
+        },
+        "map_9" : {
+            "pergunta":"O quanto meu sono é reparador?",
+            "grau":"(Grau 0 = estou sempre com sono no outro dia, atrapalhando muito minhas atividades; Grau 10 = acordo refrescado sempre)"
+        },
+        "map_10": {
+            "pergunta":"O quanto pratico exercícios de respiração consciente ou algo parecido?",
+            "grau":"(Grau 0 = nunca faço isto; Grau 10 = faço isso em 100% dos dias)"
+        }
+    }
+}
